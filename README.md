@@ -27,7 +27,7 @@ Last version: "pdf-redux_v0.1.8b.bat" (beta) of 05/22/2020.
 
 
 ## Syntax
-- C:\Program Files\gs\gs9.20\bin\gswin64c.exe -sDEVICE=pdfwrite -dCompatibilityLevel=1.3 -dPDFSETTINGS=/ebook -dNOPAUSE -dBATCH -sOutputFile=newfile.pdf oldfile.pdf
+- C:\Program Files\gs\gs9.20\bin\gswin64c.exe -sDEVICE=pdfwrite -dCompatibilityLevel=1.3 -dPDFSETTINGS=[Option] -dNOPAUSE -dBATCH -sOutputFile=newfile.pdf oldfile.pdf
 
 
 ### Next steps:
