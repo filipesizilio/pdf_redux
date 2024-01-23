@@ -1,0 +1,21 @@
+﻿Mais informações sobre os métodos de compressão:
+================================================
+
+ Screen   - possui a menor resolução e, consequentemente, 
+            o menor tamanho de arquivo. Ideal para visualização em tela.
+
+ eBook    - é um meio termo entre resolução e tamanho de arquivo.
+            Deve ser tentado, se a impressao com o /screen ficar ruim.
+
+ Printer  - próprio para impressao, mas o tamanho do arquivo resultante 
+            é maior.
+
+ PrePress - impressao em alta qualidade, mas o tamanho do arquivo final
+            fica muito grande.
+
+ 2-PASS*  - método de dupla compressao, utiliza a primeira compressao média 
+            e em seguida, uma segunda compressao mais forte.
+            O arquivo final fica muito pequeno e legível, por outro lado,
+            é mais demorado.
+            + Usar se o método eBook não reduziu o suficiente.
+            + Ideal para WEB e E-MAIL, mas ruim para impressao.

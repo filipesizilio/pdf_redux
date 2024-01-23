@@ -1,0 +1,15 @@
+﻿PDF-REDUX
+Redutor de arquivos PDF.
+Desenvolvido por Filipe Sizilio
+O objetivo do script é apenas otimizar a tarefa de redução do tamanho de arquivos pdf, utilizado o Ghostscript.
+
+Dúvidas, sugestões e informações: filipesizilio@gmail.com
+
+
+
+
+Ghostscript/GhostPCL/GhostXPS/GhostPDF/GhostPDL/GSView are Copyright 2001-2016 Artifex Software, Inc.
+For commercial licensing please contact sales@artifex.com.
+
+
+13/02/2017.

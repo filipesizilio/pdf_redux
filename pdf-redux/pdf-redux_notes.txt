@@ -1,0 +1,38 @@
+﻿### Opções
+#  /screen – possui a menor resolução e, consequentemente, o menor tamanho de arquivo. Ideal para visualização em tela (como o próprio nome já diz)
+
+#  /ebook – é um meio termo entre resolução e tamanho de arquivo. Deve ser tentado, se a impressão com o /screen ficar ruim.
+
+#  /printer – próprio para impressão, mas o tamanho do arquivo resultante é maior.
+
+#  /prepress – impressão em alta qualidade, mas o tamanho do arquivo  final fica muito grande.
+
+
+
+
+### Sintaxe
+C:\Program Files\gs\gs9.20\bin\gswin64c.exe -sDEVICE=pdfwrite -dCompatibilityLevel=1.3 -dPDFSETTINGS=/ebook -dNOPAUSE -dBATCH -sOutputFile=novo.pdf antigo.pdf
+
+
+
+### Próximo passos:
+
++ Incluir os binários do ghostscrips (gs, gswin) sem instalação, inclusive leitor de pdf.|v 0.1.3
+- Implementar menu de contexto do Windows Explorer.
++ Implementar opções de conversão de pdf.|v 0.1.1
++ Verificar se o tipo de arquivo é pdf. mime-type (application/pdf) e/ou extensão.|v 0.1.4b
+- Implementar conversão de arquivos em lote.
+- Implementar opção de sobrescrever ou renomear os arquivos originais.
+x Mostrar resultado da compressão em percentual com relação ao original.(inviável na versão DOS SHELL)
+- Implementar outras função para tratar arquivos pdf:
+  - Impressão de arquivos pdf em lote. (via menu de contexto do Windows Explorer)
+  - Converter pdf para imagem (jpg/png/tif).
+  - Girar página (retrato/paisagem)
++ Salvar configuração padrão em arquivo .ini (com conversão padrão e timeout).|v 0.1.6a lendo .ini, falta escrever.
+- Converter PDF em PNG
+  - gswin32.exe -q -dNOPAUSE -dBATCH -sDEVICE=pngalpha -dPDFFitPage -sOutputFile=saida.png -r144 "entrada.pdf"
+- Criar .bat de instalação.
+- Criar interface gráfica.
+- Criar programa de instalação.
+- Criar um site.
+- Publicar.
