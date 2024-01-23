@@ -28,4 +28,4 @@ For now it is just a script (.bat) that runs on MS Windows to facilitate the con
 --- gswin32.exe -q -dNOPAUSE -dBATCH -sDEVICE=pngalpha -dPDFFitPage -sOutputFile=output.png -r144 "input.pdf"
 - Rotate page (portrait/landscape)
 
-#### I request support for anyone who wants to cooperate by creating a Create graphical interface and installation program.
+#### I request support for anyone who wants to cooperate by creating a simple graphical interface and installation program.
