@@ -1,5 +1,5 @@
 # PDF Redux
-PDF file reducer/compressor based on Ghostscript
+PDF file reducer/compressor based on Ghostscript.
 
 The main idea is to compress PDF documents in the simplest way possible (with just one click on the context menu or drag and drop).
 For now it is just a script (.bat) that runs on MS Windows to facilitate the conversion and compression of PDF files using Ghostscript.
