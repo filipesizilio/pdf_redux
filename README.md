@@ -32,7 +32,7 @@ Last version: "pdf-redux_v0.1.8b.bat" (beta) of 05/22/2020.
 
 ### Next steps:
 - [ ] Interface in multilingual version (currently only pt-br), feel free to translate.
-- [x] Include ghostscrips binaries (gs, gswin) without installation, including pdf reader.(ver. 0.1.3)
+- [x] Include ghostscrips binaries (gs, gswin) without installation, including pdf reader[gsview.exe].(ver. 0.1.3)
 - [ ] Implement Windows Explorer context menu.
 - [x] Implement pdf conversion options.(ver. 0.1.1)
 - [x] Check if the file type is pdf. mime-type (application/pdf) and/or extension.(ver. 0.1.4b)
